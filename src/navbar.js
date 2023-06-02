@@ -1,8 +1,17 @@
-function nav() {
-    const head = document.createElement('header');
-    head.textContent = "Restaurant Page";
-    const contentSelect = document.querySelector('#content');
-    contentSelect.appendChild(head);
+import { content, createHtmlElement } from "./index.js";
+
+function render() {
+  const navItems = ["home", "menu", "about"];
+  const ul = document.createElement("ul");
+
+  navItems.forEach((item) =>
+    ul.appendChild(createHtmlElement("li", null, null, item))
+  );
+
+  const nav = document.createElement("nav");
+  nav.appendChild(ul);
+
+  content.appendChild(nav);
 }
 
-export {nav}
+export { render as renderNav };
