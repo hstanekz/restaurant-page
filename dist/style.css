@@ -105,7 +105,8 @@ button {
   text-transform: uppercase;
   padding: 16px;
   background: #c59d5f;
-  border: none;
+  border: solid burlywood;
+  border-bottom: solid #262626 3px;
   margin: 0 auto;
   margin-top: 40px;
   cursor: pointer;
@@ -119,8 +120,12 @@ button:hover {
   padding: 1px; 
 }
 
+#welcome {
+  color: black;
+}
+
 .golden {
-  color: #1d1c19;
+  color: #c59d5f;
 }
 
 .gray {

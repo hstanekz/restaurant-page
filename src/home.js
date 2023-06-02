@@ -9,6 +9,8 @@ function renderHome() {
     ["cursive", "golden"],
     "Welcome"
   );
+
+  welcome.id = "welcome";
   const title = createHtmlElement("h1", null, ["white"], "The Pizza Place");
 
   const hr = document.createElement("hr");
