@@ -1,8 +1,8 @@
-import { renderNav } from "./navbar";
-import { renderHome } from "./main-home";
-import { renderFooter } from "./footer";
-import { renderMenu } from "./main-menu";
-import { renderAbout } from "./about";
+import { renderNav } from "./navbar.js";
+import { renderHome } from "./home.js";
+import { renderFooter } from "./footer.js";
+import { renderMenu } from "./main-menu.js";
+import { renderAbout } from "./about.js";
 
 const content = document.getElementById("content");
 

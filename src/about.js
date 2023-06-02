@@ -1,4 +1,4 @@
-import { content, createHtmlElement } from "./index";
+import { content, createHtmlElement } from "./index.js";
 
 function renderAbout() {
   const main = document.createElement("main");
@@ -18,7 +18,10 @@ function renderAbout() {
   main.appendChild(hr);
   main.appendChild(p);
 
-  content.appendChild(main);
+  document.getElementById("content").appendChild(main);
+
 }
 
 export { renderAbout };
+
+
