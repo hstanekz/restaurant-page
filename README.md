@@ -1,6 +1,6 @@
 # Restaurant Page
 
-link:
+link: https://hstanekz.github.io/restaurant-page/
 
 ## Introduction
 
