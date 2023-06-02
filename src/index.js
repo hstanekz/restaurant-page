@@ -41,7 +41,7 @@ function home() {
     const target = e.target.innerText;
   
     if (target === "HOME") home();
-    if (target === "MENU" || target === "SEE MENU") menu();
+    if (target === "MENU" || target === "VIEW THE MENU") menu();
     if (target === "ABOUT") about();
   });
 
